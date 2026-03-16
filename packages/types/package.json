@@ -1,0 +1,15 @@
+{
+  "name": "@nexusynth/types",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4"
+  }
+}
